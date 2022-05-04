@@ -3,3 +3,5 @@
 _site/
 .idea/
 .tmp/
+.jekyll-metadata
+zzzz-search-data.json
