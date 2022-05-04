@@ -15,7 +15,7 @@ nav_order: 1
 <h2>
     <a href="{{ latest.url }}">The Latest: {{ latest.title }}</a>
 </h2>
-<p><i>Click <a href="/updates">here</a> to see all updates.</i></p>
+<p><i>Click <a href="updates">here</a> to see all updates.</i></p>
 
 
 {{ latest.content }}
