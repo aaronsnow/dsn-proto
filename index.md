@@ -13,7 +13,7 @@ nav_order: 1
 
 {% assign latest = site.posts.first %}
 <h2>
-    <a href="{{ latest.url }}">The Latest: {{ latest.title }}</a>
+<a href="{{ latest.url | relative_url }}">The Latest: {{ latest.title }}</a>
 </h2>
 <p><i>Click <a href="updates">here</a> to see all updates.</i></p>
 
